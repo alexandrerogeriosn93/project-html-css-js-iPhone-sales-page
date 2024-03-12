@@ -34,3 +34,37 @@ header nav {
 #navbar a:hover {
   color: #fff;
 }
+
+#bottom-header {
+  font-size: 0.8rem;
+  padding: 1rem;
+  border-bottom: solid 1px #ccc;
+}
+
+#bottom-header h3 {
+  font-size: 1.2rem;
+}
+
+#bottom-header a {
+  color: #333;
+}
+
+#bottom-header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bottom-header-inner a {
+  margin: 0 0.5rem;
+}
+
+#bottom-header-inner .btn,
+.btn {
+  background-color: #0071e3;
+  border-radius: 10rem;
+  padding: 0.4rem 1rem;
+  color: #fff;
+}
